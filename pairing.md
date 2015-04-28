@@ -1,14 +1,44 @@
-# pairing with tmux and vim
+# Pairing with tmux and vim
+## Realtime Tools<br/>for Remote Teams
+### Scott Baldwin, WellMatch
+#### @scottsbaldwin
 
 ---
 
-## Drag & Drop images
+## My Team is Remote
 
-### Simply *drop an image onto the Deckset window* and the Markdown you need to display the image is automatically created and *copied to the clipboard.*
+![left filtered](img/wellmatch_engineers.png)
+
+- HipChat
+- Skype or Google Hangouts
+- Remote EC2 instance
+- lita
+- tmux
+- vim
 
 ---
 
-* This works with both local files and web images
-* You don’t _have_ to drag the file, you can also type the Markdown yourself if you know how
+## First, I need a place to work!
 
-![left,filtered](http://deckset-assets.s3-website-us-east-1.amazonaws.com/colnago1.jpg)
+Using ChatOps, create a sandbox in AWS:
+
+```
+data pair me
+data pair add scottsbaldwin to quivering-cactus-4911
+data pair add <another user> to quivering-cactus-4911
+data pair stop quivering-cactus-4911
+data pair start quivering-cactus-4911
+```
+
+Now I have a place to work.
+
+```
+ssh scottsbaldwin@quivering-cactus-4911
+sudo su devuser
+tmux new -s 
+```
+
+---
+
+## The Gondola
+
