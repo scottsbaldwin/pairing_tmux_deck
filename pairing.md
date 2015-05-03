@@ -1,6 +1,7 @@
 # Pairing with tmux and vim
 ## Realtime Tools<br/>for Remote Teams
-### Scott Baldwin, WellMatch
+### Scott Baldwin
+#### Chief Happiness Officer, WellMatch
 #### @scottsbaldwin
 
 ---
@@ -28,7 +29,21 @@
 - shows your vulnerabilities
 - requires humility
 
-![right fit](img/curtis_scott.jpg)
+---
+
+![](img/curtis_scott.jpg)
+
+### [fit] **__Positivity + Eye Contact =__**
+# [fit] Biobehavioral synchrony
+
+_When positive emotions are shared_
+_and **two** people make eye contact,_
+_they move to the same hidden beat_
+_and start to act as **one**._
+
+
+
+
 
 ---
 
@@ -197,5 +212,5 @@ tmux new -s my_session
 
 ![](img/pear.jpg)
 
-### Scott Baldwin, WellMatch
-#### @scottsbaldwin
+### @scottsbaldwin
+#### Chief Happiness Officer, WellMatch
