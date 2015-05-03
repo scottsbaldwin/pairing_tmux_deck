@@ -7,7 +7,7 @@
 
 ## We are NOT in the same room
 
-![left filtered](img/wellmatch_engineers.png)
+![right fit original](img/wellmatch_engineers.png)
 
 - Instant Messaging: HipChat
 - A/V: Skype
@@ -96,11 +96,9 @@ unbind Down; bind Zoom resize-pane -Z;
 
 ## Synchronized panes in tmux
 
-```
-:setw synchronized-panes on
-```
+`:setw synchronized-panes on`
 
-![inline,left](img/sync_panes.png)
+![inline](img/sync_panes.png)
 
 ---
 
